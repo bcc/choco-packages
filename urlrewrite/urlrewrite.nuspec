@@ -1,0 +1,46 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!-- Do not remove this test for UTF-8: if “Ω” doesn’t appear as greek uppercase omega letter enclosed in quotation marks, you should use an editor that supports UTF-8, not this one. -->
+<package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
+  <metadata>
+    <!-- Read this before publishing packages to chocolatey.org: https://github.com/chocolatey/chocolatey/wiki/CreatePackages -->
+    <id>UrlRewrite</id>
+    <title>URL Rewrite for IIS (Install)</title>
+    <version>2.0.20160209</version>
+    <authors>Microsoft Inc.</authors>
+    <owners>Microsoft Inc.</owners>
+    <summary>Installs URL Rewrite for IIS</summary>
+    <description>IIS URL Rewrite 2.0 enables Web administrators to create powerful rules to implement URLs that are easier for users to remember and easier for search engines to find. By using rule templates, rewrite maps, .NET providers, and other functionality integrated into IIS Manager, Web administrators can easily set up rules to define URL rewriting behavior based on HTTP headers, HTTP response or request headers, IIS server variables, and even complex programmatic rules. In addition, Web administrators can perform redirects, send custom responses, or stop HTTP requests based on the logic expressed in the rewrite rules.
+    </description>
+    <projectUrl>http://www.iis.net/extensions/URLRewrite</projectUrl>
+    <packageSourceUrl>https://github.com/bcc/choco-packages</packageSourceUrl>
+    <!-- <projectSourceUrl></projectSourceUrl>
+    <docsUrl></docsUrl>
+    <mailingListUrl></mailingListUrl>-->
+    <bugTrackerUrl>https://github.com/bcc/choco-packages/issues</bugTrackerUrl>
+    <tags>microsoft iis urlrewrite url rewrite</tags>
+    <copyright>Microsoft</copyright>
+    <licenseUrl>http://download.microsoft.com/download/6/9/C/69C1195A-123E-4BE8-8EDF-371CDCA4EC6C/License_rtw.htm</licenseUrl>
+    <requireLicenseAcceptance>true</requireLicenseAcceptance>
+    <iconUrl>http://www.microsoft.com/web/media/gallery/apps-screenshots/Microsoft-URLRewrite.png</iconUrl>
+    <!--<dependencies>
+      <dependency id="" version="__VERSION__" />
+      <dependency id="" />
+    </dependencies>-->
+    <releaseNotes> 
+        ## 2.0.20160107
+
+         * Renaming unreleased package to UrlRewrite for compatibility with existing chocolatey.org package. 
+         * Installs rewrite.dll 7.1.1952 (May 2015), updating 7.1.0761 (February 2010) from the 2.0.2 chocolatey package. 
+         * Installation is now silent.
+		 
+		## 2.0.20160209
+		
+		 * Added github URLs to manifest.
+		 * Cosmetic package name change for consistency with previous chocolatey.org versions.
+    </releaseNotes>
+    <!--<provides></provides>-->
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>
