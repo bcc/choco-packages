@@ -2,7 +2,6 @@
 <!-- Do not remove this test for UTF-8: if “Ω” doesn’t appear as greek uppercase omega letter enclosed in quotation marks, you should use an editor that supports UTF-8, not this one. -->
 <package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
   <metadata>
-    <!-- Read this before publishing packages to chocolatey.org: https://github.com/chocolatey/chocolatey/wiki/CreatePackages -->
     <id>UrlRewrite</id>
     <title>URL Rewrite for IIS (Install)</title>
     <version>2.0.20160209</version>
@@ -13,19 +12,11 @@
     </description>
     <projectUrl>http://www.iis.net/extensions/URLRewrite</projectUrl>
     <packageSourceUrl>https://github.com/bcc/choco-packages</packageSourceUrl>
-    <!-- <projectSourceUrl></projectSourceUrl>
-    <docsUrl></docsUrl>
-    <mailingListUrl></mailingListUrl>-->
-    <bugTrackerUrl>https://github.com/bcc/choco-packages/issues</bugTrackerUrl>
     <tags>microsoft iis urlrewrite url rewrite admin</tags>
     <copyright>Microsoft</copyright>
     <licenseUrl>http://download.microsoft.com/download/6/9/C/69C1195A-123E-4BE8-8EDF-371CDCA4EC6C/License_rtw.htm</licenseUrl>
     <requireLicenseAcceptance>true</requireLicenseAcceptance>
     <iconUrl>http://www.microsoft.com/web/media/gallery/apps-screenshots/Microsoft-URLRewrite.png</iconUrl>
-    <!--<dependencies>
-      <dependency id="" version="__VERSION__" />
-      <dependency id="" />
-    </dependencies>-->
     <releaseNotes> 
         #### 2.0.20160107
 
@@ -38,7 +29,6 @@
          * Added github URLs to manifest.
          * Cosmetic package name change for consistency with previous chocolatey.org versions.
     </releaseNotes>
-    <!--<provides></provides>-->
   </metadata>
   <files>
     <file src="tools\**" target="tools" />
