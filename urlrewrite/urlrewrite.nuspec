@@ -17,7 +17,7 @@
     <docsUrl></docsUrl>
     <mailingListUrl></mailingListUrl>-->
     <bugTrackerUrl>https://github.com/bcc/choco-packages/issues</bugTrackerUrl>
-    <tags>microsoft iis urlrewrite url rewrite</tags>
+    <tags>microsoft iis urlrewrite url rewrite admin</tags>
     <copyright>Microsoft</copyright>
     <licenseUrl>http://download.microsoft.com/download/6/9/C/69C1195A-123E-4BE8-8EDF-371CDCA4EC6C/License_rtw.htm</licenseUrl>
     <requireLicenseAcceptance>true</requireLicenseAcceptance>
