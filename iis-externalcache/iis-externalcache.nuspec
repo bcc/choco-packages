@@ -2,7 +2,6 @@
 <!-- Do not remove this test for UTF-8: if “Ω” doesn’t appear as greek uppercase omega letter enclosed in quotation marks, you should use an editor that supports UTF-8, not this one. -->
 <package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
   <metadata>
-    <!-- Read this before publishing packages to chocolatey.org: https://github.com/chocolatey/chocolatey/wiki/CreatePackages -->
     <id>iis-externalcache</id>
     <title>iis-externalcache (Install)</title>
     <version>1.1.20151123</version>
@@ -12,22 +11,13 @@
     <description>IIS External Cache Module
     </description>
     <projectUrl>http://learn.iis.net/page.aspx/489/using-the-application-request-routing-module</projectUrl>
-    <!--<packageSourceUrl></packageSourceUrl>
-    <projectSourceUrl></projectSourceUrl>
-    <docsUrl></docsUrl>
-    <mailingListUrl></mailingListUrl>
-    <bugTrackerUrl></bugTrackerUrl>-->
+	<packageSourceUrl>https://github.com/bcc/choco-packages</packageSourceUrl>
     <tags>iis-externalcache iis externalcache admin</tags>
     <copyright></copyright>
     <licenseUrl>http://download.microsoft.com/download/3/4/1/3415F3F9-5698-44FE-A072-D4AF09728390/ExternalCache_RTW_EULA.htm</licenseUrl>
     <requireLicenseAcceptance>true</requireLicenseAcceptance>
     <iconUrl>http://www.microsoft.com/web/media/gallery/apps-screenshots/IIS_WebPlatformInstaller_GenericWizardArt.png</iconUrl>
-    <!--<dependencies>
-      <dependency id="" version="__VERSION__" />
-      <dependency id="" />
-    </dependencies>-->
     <releaseNotes> * 1.1.20151123 Initial packaging of 1.1</releaseNotes>
-    <!--<provides></provides>-->
   </metadata>
   <files>
     <file src="tools\**" target="tools" />
