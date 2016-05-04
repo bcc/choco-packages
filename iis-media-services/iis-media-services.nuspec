@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!-- Do not remove this test for UTF-8: if “Ω” doesn’t appear as greek uppercase omega letter enclosed in quotation marks, you should use an editor that supports UTF-8, not this one. -->
+<package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
+  <metadata>
+    <id>iis-media-services</id>
+    <title>IIS Media Services (Install)</title>
+    <version>4.1.20160504</version>
+    <authors>Microsoft Inc.</authors>
+    <owners>Microsoft Inc.</owners>
+    <summary>Installs IIS Media Services</summary>
+    <description>IIS Media Services, an integrated HTTP-based media delivery platform, delivers true HD (720p+) live and on-demand streaming, DVR functionality, and real-time analytics support to computers, TVs, and mobile devices. 
+    </description>
+    <projectUrl>http://www.iis.net/media</projectUrl>
+    <packageSourceUrl>https://github.com/bcc/choco-packages</packageSourceUrl>
+    <tags>microsoft iis mediaservices media services admin</tags>
+    <copyright>Microsoft</copyright>
+    <licenseUrl>http://www.microsoft.com/web/webpi/eula/IIS_Media_services_4.1_RTW_EULA.htm</licenseUrl>
+    <requireLicenseAcceptance>true</requireLicenseAcceptance>
+    <iconUrl>http://www.microsoft.com/web/media/gallery/apps-screenshots/Microsoft-MediaServices2.png</iconUrl>
+    <releaseNotes> 
+        #### 4.1.20160504
+
+         * First packaging for chocolatey.
+    </releaseNotes>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>

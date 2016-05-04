@@ -6,6 +6,10 @@ To build:
 
 # Packages
 
+Data sources from WebPI: 
+ * https://www.microsoft.com/web/webpi/5.0/webproductlist.xml
+ * https://www.microsoft.com/web/webpi/5.0/mediaproductlist.xml
+
 ## urlrewrite 
 
 https://chocolatey.org/packages/UrlRewrite
