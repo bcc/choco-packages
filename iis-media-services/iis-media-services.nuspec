@@ -18,9 +18,9 @@
     <requireLicenseAcceptance>true</requireLicenseAcceptance>
     <iconUrl>http://www.microsoft.com/web/media/gallery/apps-screenshots/Microsoft-MediaServices2.png</iconUrl>
     <releaseNotes> 
-        #### 4.1.20160504
+#### 4.1.20160504
 
-         * First packaging for chocolatey.
+ * First packaging for chocolatey.
     </releaseNotes>
   </metadata>
   <files>

@@ -3,7 +3,7 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
   <metadata>
     <id>iis-arr</id>
-    <title>iis-arr (Install)</title>
+    <title>IIS Application Request Routing (Install)</title>
     <version>3.0.20160107</version>
     <authors>Microsoft Inc.</authors>
     <owners>Microsoft Inc.</owners>
@@ -22,8 +22,8 @@
       <dependency id="iis-externalcache" />
     </dependencies>
     <releaseNotes> 
-     * 3.0.20151123 - first packaging of ARR 3.0
-     * 3.0.20160107 - version bump for updated UrlRewrite dependency
+* 3.0.20151123 - first packaging of ARR 3.0
+* 3.0.20160107 - version bump for updated UrlRewrite dependency
     </releaseNotes>
   </metadata>
   <files>
