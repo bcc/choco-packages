@@ -4,8 +4,8 @@ $ErrorActionPreference = 'Stop';
 
 $packageName= 'UrlRewrite'
 $toolsDir   = "$(Split-Path -parent $MyInvocation.MyCommand.Definition)"
-$url        = 'http://download.microsoft.com/download/5/4/9/54980B19-9C64-4E8E-A69C-615A88DFF8B7/rewrite_x86.msi'
-$url64      = 'http://download.microsoft.com/download/C/9/E/C9E8180D-4E51-40A6-A9BF-776990D8BCA9/rewrite_amd64.msi'
+$url        = 'https://download.microsoft.com/download/6/8/F/68F82751-0644-49CD-934C-B52DF91765D1/rewrite_x86_en-US.msi'
+$url64      = 'https://download.microsoft.com/download/D/D/E/DDE57C26-C62C-4C59-A1BB-31D58B36ADA2/rewrite_amd64_en-US.msi'
 
 $packageArgs = @{
   packageName   = $packageName
@@ -18,9 +18,9 @@ $packageArgs = @{
   validExitCodes= @(0, 3010, 1641)
 
   softwareName  = 'IIS URL Rewrite Module 2'
-  checksum      = '154a645dd10a9b22bf52ad161bac5199d284d5ec'
+  checksum      = '51F504CD23E5AE0F084FEFEE7FAB0833F64F0B73'
   checksumType  = 'sha1'
-  checksum64    = '6a98b994adcc2e8d21507bf2b8baffb402c17395'
+  checksum64    = 'D2542E2D398F0E95981EBF4E729F79EAF96E6691'
   checksumType64= 'sha1'
 }
 

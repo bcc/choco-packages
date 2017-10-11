@@ -4,11 +4,11 @@
   <metadata>
     <id>UrlRewrite</id>
     <title>URL Rewrite for IIS (Install)</title>
-    <version>2.0.20160209</version>
+    <version>2.1.20171010</version>
     <authors>Microsoft Inc.</authors>
     <owners>Microsoft Inc.</owners>
     <summary>Installs URL Rewrite for IIS</summary>
-    <description>IIS URL Rewrite 2.0 enables Web administrators to create powerful rules to implement URLs that are easier for users to remember and easier for search engines to find. By using rule templates, rewrite maps, .NET providers, and other functionality integrated into IIS Manager, Web administrators can easily set up rules to define URL rewriting behavior based on HTTP headers, HTTP response or request headers, IIS server variables, and even complex programmatic rules. In addition, Web administrators can perform redirects, send custom responses, or stop HTTP requests based on the logic expressed in the rewrite rules.
+    <description>URL Rewrite 2.1 for IIS 7 extends its foundation of rule-based URL rewriting with new support for outbound rewrite rules and with new capability to set HTTP request headers and IIS server variables. This new set of features provides administrators with complete control over the URL structure used by existing or legacy web applications that cannot be modified to natively support user and search engine friendly URLs.
     </description>
     <projectUrl>http://www.iis.net/extensions/URLRewrite</projectUrl>
     <packageSourceUrl>https://github.com/bcc/choco-packages</packageSourceUrl>
@@ -18,16 +18,18 @@
     <requireLicenseAcceptance>true</requireLicenseAcceptance>
     <iconUrl>http://www.microsoft.com/web/media/gallery/apps-screenshots/Microsoft-URLRewrite.png</iconUrl>
     <releaseNotes> 
-        #### 2.0.20160107
+#### 2.1.20171010
+ * Installs rewrite.dll 7.1.1980 (June 2017).
+ * Switching to HTTPS download URLs.
 
-         * Renaming unreleased package to UrlRewrite for compatibility with existing chocolatey.org package. 
-         * Installs rewrite.dll 7.1.1952 (May 2015), updating 7.1.0761 (February 2010) from the 2.0.2 chocolatey package. 
-         * Installation is now silent.
-		 
-        #### 2.0.20160209
+#### 2.0.20160107
+ * Renaming unreleased package to UrlRewrite for compatibility with existing chocolatey.org package. 
+ * Installs rewrite.dll 7.1.1952 (May 2015), updating 7.1.0761 (February 2010) from the 2.0.2 chocolatey package. 
+ * Installation is now silent.
 
-         * Added github URLs to manifest.
-         * Cosmetic package name change for consistency with previous chocolatey.org versions.
+#### 2.0.20160209
+ * Added github URLs to manifest.
+ * Cosmetic package name change for consistency with previous chocolatey.org versions.
     </releaseNotes>
   </metadata>
   <files>
