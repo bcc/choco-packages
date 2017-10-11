@@ -14,9 +14,13 @@ Data sources from WebPI:
 
 https://chocolatey.org/packages/UrlRewrite
 
-IIS URL Rewrite 2.0. Requires IIS to be installed or installation will fail.
+IIS URL Rewrite 2.1. Requires IIS to be installed or installation will fail.
 
 ### Changes
+#### 2.1.20171010
+ * Installs rewrite.dll 7.1.1980 (June 2017).
+ * Switching to HTTPS download URLs.
+
 #### 2.0.20160107
 
 * Renaming unreleased package to UrlRewrite for compatibility with existing chocolatey.org package. 
