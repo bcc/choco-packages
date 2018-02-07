@@ -18,9 +18,9 @@ $packageArgs = @{
   validExitCodes= @(0, 3010, 1641)
 
   softwareName  = 'Microsoft Application Request Routing 3.0'
-  checksum      = '69bd0a5fb2a9f9cbed3a5cb1a4ca429698610d07'
+  checksum      = 'd28562a13d5af235d2c3dfe2f0e82214af696486'
   checksumType  = 'sha1'
-  checksum64    = '5f4f24058dcd675da46dc0c4b17969d41fce68c1'
+  checksum64    = '9bbe610e347909afa68230778b9242bb57bbbc55'
   checksumType64= 'sha1'
 }
 
