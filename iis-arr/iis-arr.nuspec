@@ -4,7 +4,7 @@
   <metadata>
     <id>iis-arr</id>
     <title>IIS Application Request Routing (Install)</title>
-    <version>3.0.20160107</version>
+    <version>3.0.20180207</version>
     <authors>Microsoft Inc.</authors>
     <owners>Microsoft Inc.</owners>
     <summary>IIS Application Request Routing (ARR)</summary>
@@ -21,10 +21,11 @@
       <dependency id="UrlRewrite" />
       <dependency id="iis-externalcache" />
     </dependencies>
-    <releaseNotes> 
-* 3.0.20151123 - first packaging of ARR 3.0
+    <releaseNotes>
+* 3.0.20180207 - Updated for the silent release from 3.0.1952 to 3.0.1988. Not currently clear on changes but the new MSIs have a valid MS code signature.
 * 3.0.20160107 - version bump for updated UrlRewrite dependency
-    </releaseNotes>
+* 3.0.20151123 - first packaging of ARR 3.0
+   </releaseNotes>
   </metadata>
   <files>
     <file src="tools\**" target="tools" />
