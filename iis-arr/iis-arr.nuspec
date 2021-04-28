@@ -6,7 +6,7 @@
     <title>IIS Application Request Routing (Install)</title>
     <version>3.0.20210401</version>
     <authors>Microsoft Inc.</authors>
-    <owners>Microsoft Inc.</owners>
+    <owners>bcc</owners>
     <summary>IIS Application Request Routing (ARR)</summary>
     <description>Microsoft Application Request Routing for IIS is a proxy-based routing module that forwards HTTP requests to application servers based on HTTP headers and server variables, and load balance algorithms
     </description>
@@ -16,7 +16,7 @@
     <copyright></copyright>
     <licenseUrl>http://go.microsoft.com/?linkid=9835457</licenseUrl>
     <requireLicenseAcceptance>true</requireLicenseAcceptance>
-    <iconUrl>http://www.microsoft.com/web/media/gallery/apps-screenshots/Microsoft-App-Request-Routing.png</iconUrl>
+    <iconUrl>https://cdn.statically.io/gh/bcc/choco-packages/master/iis-arr/iis-arr.png</iconUrl>
     <dependencies>
       <dependency id="UrlRewrite" />
       <dependency id="iis-externalcache" />
